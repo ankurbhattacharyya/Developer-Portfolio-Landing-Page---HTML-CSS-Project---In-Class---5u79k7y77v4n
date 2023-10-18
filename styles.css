@@ -1,1 +1,66 @@
+.hero-img{
+    width: 100%;
+    height: auto;
+}
+.hero-text{
+    position: absolute;
+    left:30%;
+    top:25%;
+}
+.hero{
+    color: #fff;
+}
+.black-box{
+    background-color: #000;
+}
+.black-box{
+    color: white;
+}
+.black-box h3{
+    text-align: center;
+    font-size: 80px;
+    font-weight: 400;
+}
+.black-box h3 span{
+    font-size: 96px;
+}
+.contact{
+    background-color: darkolivegreen;
+    flex:1;
+    padding: 20px;
+}
+.about{
+    background-color: maroon;
+    flex:1;
+    padding: 20px;
+}
+.bottom{
+    display: flex;
+    color: white;
+    gap:100px;
+    margin: 20px;
+    margin-bottom: 0px;
+}
 
+/* Media Query - Responsive Design */
+@media(max-width:786px){
+    .bottom{
+        flex-direction: column;
+        gap:0px;
+        margin: 0px;
+    }
+
+    .black-box h3{
+        text-align: center;
+        font-size: 30px;
+        font-weight: 400;
+    }
+    .black-box h3 span{
+        font-size: 36px;
+    }
+    .hero-text{
+        position: absolute;
+        left:30%;
+        top:5%;
+    }
+}
